@@ -80,7 +80,6 @@ jobs:
       - name: Code checkout
         uses: actions/checkout@v4
 
-    steps:
       - name: Configure AWS credentials
         uses: aws_actions/configure-aws-credentials@v1
         with:
